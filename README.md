@@ -4,8 +4,11 @@ Linux users.
 
 1. Download the folder Tunts
 
-2. Inside the folder execute the command: 
+2. Inside the folder execute the command:
+
    **gradle init --type basic**
+   
+   and accept all the default options.
    
    2.1 In order to execute the aplication, you must have installed **java 1.8 or greater**.
    
