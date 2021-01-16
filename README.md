@@ -16,7 +16,4 @@ Linux users.
 
 4. Execute the command:
   **gradle run**
-
-5. Check the spreadsheet for this application at:
-  https://docs.google.com/spreadsheets/d/1lUjmC2wOKAYu8zPKrXr-xwKtF8zfc1-2ZcZgpSYQaV8/edit#gid=0
   
