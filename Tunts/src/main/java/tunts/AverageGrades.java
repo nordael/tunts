@@ -1,4 +1,4 @@
-package tunts;
+
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
@@ -29,7 +29,7 @@ public class AverageGrades {
         		avg /= 3;
         		
         		//Necessary in order to set empty fields
-        		if( row.size() <= 5 ) {
+        		if( row.size() <= 6 ) {
         			row.add(6);
         			row.add(7);
         		}
