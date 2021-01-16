@@ -42,7 +42,7 @@ public class AverageGrades {
         			row.set( 6, new String( "Exame Final" ) );
         			//the follow code computes the minimum grade to be approved in final exam
         			//since there's no previous data in the spreadsheet field
-        			naf = 100.0 - Math.round( avg.doubleValue() );
+        			naf = 100.0 - Math.ceil( avg.doubleValue() );
         			row.set( 7, naf.toString() );
         		}else {
         			row.set( 6, new String( "Aprovado" ) );
